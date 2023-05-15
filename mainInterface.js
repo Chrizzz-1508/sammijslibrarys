@@ -3,7 +3,7 @@ var log = jQuery("#log");
 var state = jQuery("#status")[0];
 
 Voicemod.init({
-    port: jQuery("#port").val().split(","),
+    port: "59129,20000,39273,42152,43782,46667,35679,37170,38501,33952,30546".split(","),
     autoRetry: true,
     onConnect: function(){
         console.log("onConnect Delegado");        
