@@ -1130,4 +1130,3 @@ var OBSWebSocket5 = (function () {
         })(A);
     return (I.OBSWebSocketError = j), (I.WebSocketOpCode = g), (I.EventSubscription = C), (I.RequestBatchExecutionType = w), I;
 })();
-//# sourceMappingURL=obs-ws.min.js.map
